@@ -1,8 +1,8 @@
-# input1 = "12387934503457890345623455757"
+input1 = "12387934503457890345623455757"
 # input2 = "87643267123098129873574369897"
-# input2 = "29873574369897"
-input1 = "29873574369897"
-input2 = "12387934503457890345623455757"
+input2 = "29873574369897"
+# input1 = "29873574369897"
+# input2 = "12387934503457890345623455757"
 # input1 = "124"
 # input2 = "32876"
 output = ""
@@ -11,7 +11,7 @@ input1_len = len(input1)
 input2_len = len(input2)
 max = 0
 
-if input1_len > input1_len:
+if input1_len > input2_len:
     max = input1_len
 else:
     max = input2_len
